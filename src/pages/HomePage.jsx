@@ -24,13 +24,13 @@ export class HomePage extends Component {
         </div>
        <Home/>
         <About/>
-        {/* <Expert/>
+        <Expert/>
         <Countsection/>
         <Service/>
         <Projects/>
         <Testimonial/>
         <Blogs/>
-        <Partner/> */}
+        <Partner/>
         <Footer/>
       </Fragment>
     )
