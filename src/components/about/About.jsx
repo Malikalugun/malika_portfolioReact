@@ -13,7 +13,7 @@ export class About extends Component {
        <Col xl={6} lg={6} md={12} sm={12} xs={12}>
       <div className="rightabout">
         <div className="innerabout">
-          <h2>10</h2>
+          <h2>02</h2>
           <div className='year-experience'>Year of Experience</div>
           <div className="aboutname">
             <h3>Malika</h3>
