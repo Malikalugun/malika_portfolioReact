@@ -1,14 +1,17 @@
-import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/HomePage';
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
-  );
+import React, { Component, Fragment } from 'react';
+import AppRoute from './routes/AppRoute';
+import { HashRouter } from 'react-router-dom';
+
+export class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <HashRouter>
+          <AppRoute />
+        </HashRouter>
+      </Fragment>
+    );
+  }
 }
 
 export default App;
