@@ -1,0 +1,49 @@
+.helloBtn{
+    background: #6244c5;
+    color: #fff;
+    padding: 18px 30px;
+    border-radius: 12px;
+      height: 100%;
+    align-items: center;
+    display: flex;
+    gap:12px;
+}
+.workBtn{
+
+      background: #fff;
+    color: #000;
+  padding: 18px 30px;
+    border-radius: 12px;
+      height: 100%;
+    align-items: center;
+    display: flex;
+    gap:12px;  
+}
+.downloadBtn{
+  background: #fff;
+   color: #000;
+    padding: 18px 30px;
+    border-radius: 12px;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.expertBtn.active{
+  border:1px solid #555555!important;
+    padding: 12px 20px!important;
+}
+.expertBtn{
+  border:1px solid #ffffff!important;
+  font-size: 1.1rem;
+  font-weight: 600!important;
+  border-radius: 20px!important;
+  margin: 20px 0;
+  padding: 12px 20px!important;
+  color: #000!important;
+   transition: .6s;
+}
+.expertBtn i{
+  rotate: -45deg;
+  margin-left: 4px;
+  transition: .6s;
+}

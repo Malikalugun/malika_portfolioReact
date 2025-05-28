@@ -1,0 +1,24 @@
+.countsection{
+    margin-bottom: 120px;
+}
+
+.countCard h3{
+    font-size: 60px;
+    font-family: "kaushan";
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: #ffc448;
+    margin-bottom: 20px;
+    text-align: center;
+  
+}
+.countCard p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.countNum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

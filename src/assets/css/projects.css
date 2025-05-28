@@ -1,0 +1,26 @@
+.project-section{
+    background: #ffc448;
+    padding: 120px 0;
+}
+.project-section .headline h2{
+    color: #000;
+}
+.project-section .headline h2::after{
+    background: #000;
+}
+.project-card img{
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
+.project-card p{
+   font-size: 18px;
+    line-height: 32px;
+    font-weight: 500; 
+}
+.slick-slide > div {
+  padding: 0 10px;
+}
+.slick-prev:before, .slick-next:before {
+    /* font-size: 40px!important; */
+}

@@ -1,0 +1,44 @@
+.testimonial-section{
+    background: #f9f9f9;
+    padding: 120px 0;
+}
+.testimonial-section .headline h2{
+    color: #000!important;
+    margin-bottom: 80px;
+}
+.testimonial-section .headline h2::after{
+    background: #000;
+}
+.procont p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+.procont h5{
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    padding-left: 60px;
+}
+.procont h5::before{
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    content: '';
+    width: 40px;
+    height: 2px;
+    background: #727171;
+}
+.procont .test-des{
+font-weight: 500;
+font-size: 20px;
+color: #727171;
+ padding-left: 60px;
+}
+.testimonial-section .row{
+    align-items: center;
+}
+.testi-profile img{
+    width: 100%;
+}

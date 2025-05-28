@@ -1,0 +1,15 @@
+.navbar-mobile-section{
+    padding: 12px 0;
+    background: #f0f;
+}
+.navbar-mobile-section .row{
+    align-items: center;
+}
+.mobile-menubar{
+    width: 100%;
+   display: flex;
+   justify-content: end;
+}
+.mobile-menubar img{
+    width: 24px;
+}

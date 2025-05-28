@@ -1,0 +1,76 @@
+.expert-section{
+    padding: 120px 0;
+}
+.leftexpert .headline h2{
+    color: #000;
+}
+.leftexpert .headline h2::after{
+    background: #000;
+}
+.leftexpert .aboutpara{
+    color: #444141;
+}
+.leftexpert .helloBtn{
+    display: inline-block;
+    text-decoration: none;
+}
+.right-expert .nav.nav-tabs.nav-justified{
+border-bottom: 0!important;
+
+}
+.tabcont .expert-icon{
+    font-size: 1.5rem;
+    background:#e0d7ff;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    
+}
+.tabcont img{
+    width: 40px;
+    height: 40px
+}
+.tabcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.expert-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabcont{
+    margin-bottom: 30px;
+}
+ .tabcontent-section{
+margin: 60px 0;
+ }
+.tabcont h5{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.tabcont h5 span{
+      font-weight: 500;
+}
+.pastList .pastdate{
+    color: #757eff;
+}
+.pastList p{
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+}
+.pastList{
+    margin-bottom: 40px;
+}
+.pastList h4{
+
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 1.3rem;
+}

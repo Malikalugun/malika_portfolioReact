@@ -1,0 +1,150 @@
+.herosection{
+    
+}
+.heroimg img{
+    width: 100%;
+}
+.head-name h3{
+    font-weight: 500;
+    color: #000;
+    font-size: 80px;
+}
+.subhead{
+    color: #444343;
+    position: relative;
+    padding-left: 55px;
+    font-weight: 600;
+}
+.subhead::before{
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background: #444343;
+    left: 0;
+    bottom: 8px;
+    content: '';
+}
+.portpara{
+color: #7a7777;
+line-height: 28px;
+width: 450px;
+padding: 20px 0;
+
+
+}
+.contactlink{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    gap:30px;
+  
+}
+.contactlink a{
+    text-decoration: none;
+    font-weight: 700;
+}
+.contactlink i{
+    font-size: 2rem;
+}
+.workBtn i{
+    rotate: -45deg;
+
+}
+.name-icon{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    gap:30px;
+    height: 100%;
+    align-items: center;
+}
+.name-icon img{
+    width: 30px;
+    height: 30px;
+}
+.socialmedia{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    gap: 12px;
+    height: 100%;
+    align-items: center;
+
+}
+.socialmedia li{
+    list-style: none;
+}
+.socialmedia li a{
+    background:#efefef;
+    padding: 12px;
+    border-radius: 60px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialmedia li a{
+    text-decoration: none;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    gap:18px;
+}
+.social-icon i{
+    color: #474646;
+}
+.social-icon h4{
+    color: #444343;
+    font-size: 1.2rem;
+}
+.leftherosection{
+    display:flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+@media(max-width:1200px){
+   .head-name h3 {
+    font-size: 60px;
+} 
+.headline h2 {
+    font-size: 50px!important;
+}
+}
+@media(max-width:575px){
+        .headline h2 {
+        font-size: 40px !important;
+    
+}
+.helloBtn {
+    padding: 14px 24px;
+}
+}
+@media(max-width:463px){
+        .head-name h3 {
+        font-size: 45px;
+    }
+    .helloBtn,.workBtn {
+    padding: 12px 20px!important;
+    }
+    .portpara {
+    width: 100%;
+    }
+}
+@media(max-width:375px){
+     .helloBtn,.workBtn {
+    gap:6px!important;
+    }
+        .helloBtn, .workBtn {
+        padding: 8px 12px !important;
+        border-radius: 4px;
+         font-size: 14px;
+    }
+    .contactlink i {
+    font-size: 1.6rem;
+}       
+}

@@ -1,0 +1,13 @@
+.partner-content .partnerimg {
+ 
+  transition: all 0.3s ease;
+  opacity: 0.5;
+}
+
+.partner-content .partnerimg:hover {
+   opacity: 1;
+     transition: all 0.3s ease;
+}
+.slider-section{
+    margin: 60px 0;
+}
