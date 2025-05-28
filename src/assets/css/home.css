@@ -123,6 +123,13 @@ padding: 20px 0;
 .helloBtn {
     padding: 14px 24px;
 }
+.head-name h3 {
+        font-size: 50px;
+    }
+    .navbar-mobile-section {
+    margin-bottom: 30px;
+    }
+
 }
 @media(max-width:463px){
         .head-name h3 {
@@ -146,5 +153,8 @@ padding: 20px 0;
     }
     .contactlink i {
     font-size: 1.6rem;
-}       
+}  
+.headline h2 {
+        font-size: 35px !important;
+    }     
 }

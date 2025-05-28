@@ -42,3 +42,8 @@ color: #727171;
 .testi-profile img{
     width: 100%;
 }
+@media(max-width:768px){
+    .testimonial-section {
+    padding: 40px 0;
+}
+}

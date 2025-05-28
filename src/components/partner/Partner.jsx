@@ -61,7 +61,7 @@ export class Partner extends Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
-            initialSlide: 2,
+            initialSlide: 1,
           },
         },
         {
@@ -70,6 +70,15 @@ export class Partner extends Component {
             slidesToShow: 2,
             slidesToScroll: 1,
           },
+          
+        },
+         {
+          breakpoint: 375,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+          
         },
       ],
     };

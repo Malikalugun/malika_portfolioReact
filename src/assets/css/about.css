@@ -77,6 +77,7 @@
     padding: 80px 0;
 }
 }
+
 @media(max-width:575px){
     .innerabout h2 {
     margin-top: -110px;
@@ -95,6 +96,14 @@
     border-radius: 8px;
     line-height: 60px;
     }
+        .tabcont h5 {
+        width: 100px;
+        margin: 0 auto;
+    }
+.tabcontent-section {
+    margin: 20px 0!important;
+}
+  
 }
     @media(max-width:375px){
         .aboutname h3 {
@@ -103,4 +112,7 @@
         .headline h2::after {
     width: 60px;
         }
+        .tabcont h5 {
+    font-size: .9rem!important;
+}
     }

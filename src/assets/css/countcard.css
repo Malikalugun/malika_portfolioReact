@@ -22,3 +22,16 @@
     align-items: center;
     justify-content: center;
 }
+@media(max-width:768px){
+    .countsection {
+    margin-bottom: 40px;
+}
+}
+@media(max-width:575px){
+    .countCard h3 {
+    font-size: 35px;
+    }
+    .countCard p {
+    font-size: 1rem;
+}
+}
