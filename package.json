@@ -18,7 +18,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage":"https://github.com/Malikalugun/malika_portfolioReact",
+  "homepage":"https://malikalugun.github.io/malika_portfolioReact/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
