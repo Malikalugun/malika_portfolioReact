@@ -107,6 +107,7 @@ padding: 20px 0;
     padding-left: 0;
     margin-bottom: 0;
 }
+
 @media(max-width:1200px){
    .head-name h3 {
     font-size: 60px;

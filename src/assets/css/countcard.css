@@ -22,6 +22,13 @@
     align-items: center;
     justify-content: center;
 }
+.countsection .headline h2{
+    color: #000;
+    margin-bottom: 60px!important;
+}
+.countsection .headline h2::after{
+    background: #000;
+}
 @media(max-width:768px){
     .countsection {
     margin-bottom: 40px;

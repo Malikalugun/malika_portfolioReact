@@ -40,8 +40,8 @@ return (
             <div className="footercontact">
                <p>Call:</p>
                <h2>
-                  <Link to="#">
-                  +1 (234) 567 890</Link>
+                  <Link to="tel:7735979503">
+                  +91-7735979503</Link>
                </h2>
             </div>
             </Col>
@@ -49,7 +49,7 @@ return (
             <div className="footercontact">
                <p>Email:</p>
                <h2>
-                  <Link to="#">
+                  <Link to="mailto:annamalikalugun@gmail.com">
                   annamalikalugun@gmail.com</Link>
                </h2>
             </div>

@@ -47,6 +47,9 @@ color: #fff;
    float: right;
    rotate: -45deg;
 }
+.service-content:hover .snum{
+    color:#fff
+}
 .snum{
     font-size: 18px;
     color: #6244c5;

@@ -19,8 +19,11 @@ export class Testimonial extends Component {
           </Col>
            <Col xl={9}lg={9} md={9} sm={12} xs={12}>
            <div className="procont">
-            <p>“Awesome website! Easy to use and edit, it has a lot of options to design whatever you need, it is professional and fun. I was very successful creating my profile using designer which gave me unbelievable reach & appreciation.”</p>
-            <h5>Albert Walkers</h5>
+           <p>
+  Working with <strong>teams</strong> has been a fantastic experience. He consistently delivers high-quality, responsive websites on time. His expertise in <strong>Laravel</strong>, <strong>React</strong>, and <strong>WordPress</strong> helped bring our ideas to life with clean, scalable code. <em>Highly recommended</em> for any web development needs!
+</p>
+
+            <h5>Albert </h5>
             <p className='test-des'>Vivaco Group</p>
            </div>
           </Col>

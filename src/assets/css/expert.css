@@ -54,6 +54,7 @@ margin: 60px 0;
 .tabcont h5{
     font-size: 1.1rem;
     font-weight: 400;
+    text-align: center;
 }
 .tabcont h5 span{
       font-weight: 500;
@@ -73,6 +74,9 @@ margin: 60px 0;
     font-family: "Oswald";
     font-weight: 400;
     font-size: 1.3rem;
+}
+strong{
+    font-weight: 500!important;
 }
 @media(max-width:768px){
     .expert-section {

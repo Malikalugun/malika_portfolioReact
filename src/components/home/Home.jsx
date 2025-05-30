@@ -18,10 +18,10 @@ return (
                </div>
             </div>
             <div className="subhead">
-               Visual Designer
+              Web Developer
             </div>
             <p className="portpara">
-               I'm creative designer based in New York, and I'm very passionate and dedicated to my work.
+              Passionate web developer from Ranchi, building fast, responsive websites with clean code and modern design.
             </p>
             <div className="contactlink mb-4">
                <Link to="#" className='helloBtn'>Say Hello <i class="fa-brands fa-telegram"></i></Link>
