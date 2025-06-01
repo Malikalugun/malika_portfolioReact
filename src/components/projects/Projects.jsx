@@ -1,12 +1,12 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component, Fragment } from "react";
 import Slider from "react-slick";
-import { Container } from 'react-bootstrap';
-import Project from "../../assets/images/project.jpg"
-import Project1 from "../../assets/images/project1.webp"
-import Project2 from "../../assets/images/project2.webp"
+import { Container } from "react-bootstrap";
+import Project from "../../assets/images/easyecommerce.png";
+import Project1 from "../../assets/images/portfolio.png";
+import Project2 from "../../assets/images/swiggy.png";
 export class Projects extends Component {
   render() {
-     var settings = {
+    var settings = {
       dots: false,
       infinite: true,
       speed: 500,
@@ -16,7 +16,7 @@ export class Projects extends Component {
       slidesToScroll: 1,
       initialSlide: 0,
       arrows: true,
-      
+
       responsive: [
         {
           breakpoint: 1024,
@@ -45,71 +45,57 @@ export class Projects extends Component {
       ],
     };
     return (
-     <Fragment>
+      <Fragment>
         <div className="project-section">
-            <Container>
- <div className="headline">
-            <h2>Look at my <br />recent projects</h2>
+          <Container>
+            <div className="headline">
+              <h2>
+                Look at my <br />
+                recent projects
+              </h2>
+            </div>
+            <div className="project-cont">
+              <Slider {...settings} className="slider-section">
+                <div>
+                  <div className="project-card">
+                    <img
+                      src={Project}
+                      alt="partner logo"
+                      className="partnerimg"
+                    />
+                    <p>Easy Shop</p>
+                    <h3>Ecommerce</h3>
+                  </div>
+                </div>
+                <div>
+                  <div className="project-card">
+                    <img
+                      src={Project1}
+                      alt="partner logo"
+                      className="partnerimg"
+                    />
+                    <p>Dummy</p>
+                    <h3>Portfolio</h3>
+                  </div>
+                </div>
+                <div>
+                  <div className="project-card">
+                    <img
+                      src={Project2}
+                      alt="partner logo"
+                      className="partnerimg"
+                    />
+                    <p>Clone</p>
+                    <h3>Swiggy</h3>
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          </Container>
         </div>
-<div className="project-cont">
-
-    <Slider {...settings} className='slider-section'>
-      <div>
-       <div className="project-card">
-         <img src={Project} alt="partner logo" className='partnerimg'/>
-         <p>Popup</p>
-         <h3>Felix Photo</h3>
-       </div>
-      </div>
-      <div>
-        <div className="project-card">
-      <img src={Project1} alt="partner logo" className='partnerimg'/>
-       <p>Youtube</p>
-         <h3>Car Export</h3>
-      </div>
-      </div>
-      <div>
-        <div className="project-card">
-       <img src={Project2} alt="partner logo" className='partnerimg'/>
-        <p>Vimeo</p>
-         <h3>Food delivery</h3>
-      </div>
-      </div>
-      <div>
-        <div className="project-card">
-       <img src={Project2} alt="partner logo" className='partnerimg'/>
-        <p>Soundcloud</p>
-         <h3>Ecommerce Website</h3>
-      </div>
-      </div>
-      <div>
-        <div className="project-card">
-        <img src={Project} alt="partner logo" className='partnerimg'/>
-         <p>Details</p>
-         <h3>Mockup Phone</h3>
-      </div>
-      </div>
-      <div>
-        <div className="project-card">
-        <img src={Project1} alt="partner logo" className='partnerimg'/>
-         <p>Popup</p>
-         <h3>Felix Photo</h3>
-      </div>
-      </div>
-      <div>
-        <div className="project-card">
-        <img src={Project} alt="partner logo" className='partnerimg'/>
-         <p>Vimeo</p>
-         <h3>Food delivery</h3>
-      </div>
-      </div>
-    </Slider>
-</div>
-        </Container>
-        </div>
-     </Fragment>
+      </Fragment>
     );
   }
 }
 
-export default Projects
+export default Projects;
