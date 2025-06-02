@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Container, Row, Col, Navbar, Button } from "react-bootstrap";
 import Logo from "../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 export class NavbarMobile extends Component {
   constructor() {
@@ -54,7 +55,31 @@ export class NavbarMobile extends Component {
               </Col>
             </Row>
           </Container>
-          <div className={this.state.SideNavState}></div>
+          <div className={this.state.SideNavState}>
+            <Button onClick={this.MenuBarClickHandler} className="cancelBtn">
+              <i className="fa fa-close"></i>
+            </Button>
+            <ul className="MobileMenubar">
+              <li>
+                <Link>Home</Link>
+              </li>
+              <li>
+                <Link>About</Link>
+              </li>
+              <li>
+                <Link>Project</Link>
+              </li>
+              <li>
+                <Link>Service</Link>
+              </li>
+              <li>
+                <Link>Testimonial</Link>
+              </li>
+              <li>
+                <Link>Contact Us</Link>
+              </li>
+            </ul>
+          </div>
           <div
             onClick={this.ContentOverlayClickHandler}
             className={this.state.ContentOverState}
