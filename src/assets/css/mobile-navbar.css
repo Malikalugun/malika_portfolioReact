@@ -1,15 +1,71 @@
-.navbar-mobile-section{
-    padding: 12px 0;
-    /* background: #f0f; */
+.navbar-mobile-section {
+  padding: 12px 0;
+  background: #fff;
 }
-.navbar-mobile-section .row{
-    align-items: center;
+.navbar-mobile-section .row {
+  align-items: center;
 }
-.mobile-menubar{
-    width: 100%;
-   display: flex;
-   justify-content: end;
+.mobile-menubar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
-.mobile-menubar img{
-    width: 24px;
+.mobile-menubar img {
+  width: 24px;
+}
+/* ********* */
+.sideNavOpen {
+  height: 100%;
+  width: 240px;
+  margin-top: 55px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2000;
+  overflow-x: hidden;
+  font-size: 16px;
+  padding-top: 40px;
+  transition: 0.1s;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
+}
+.sideNavClose {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  top: 0;
+  font-size: 20px;
+  right: 0;
+  z-index: 10;
+  overflow-x: hidden;
+  transition: 0.1s;
+  background-color: #161616;
+  box-shadow: 0 0 8px 0 rgba(57, 78, 234, 0.1);
+}
+.ContentOverlayOpen {
+  display: block;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ContentOverlayClose {
+  display: none;
+}
+.mobile-menubar Button {
+  background: transparent;
+  border: none;
+}
+.mobile-menubar Button:hover {
+  background: transparent;
+  border: none;
+}
+.mobile-menubar i {
+  color: #000;
+  font-size: 1.5rem;
 }

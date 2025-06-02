@@ -32,7 +32,7 @@ export class Footer extends Component {
                 <div className="footer-cont">
                   <div className="contactlink mb-4">
                     <Link to="#" className="helloBtn">
-                      Say Hello <i class="fa-brands fa-telegram"></i>
+                      Say Hello <i className="fa-brands fa-telegram"></i>
                     </Link>
                   </div>
                 </div>
